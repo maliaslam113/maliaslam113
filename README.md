@@ -1,16 +1,22 @@
-## Hi there 👋
+# Muhammad Ali Aslam
 
-<!--
-**maliaslam113/maliaslam113** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Odoo Developer | ERP Implementation & Customization
 
-Here are some ideas to get you started:
+I build practical Odoo solutions that help businesses streamline operations, improve reporting, and scale reliably.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Focus:** Odoo implementation, custom modules, workflow automation, and integrations
+- **Strengths:** Python, PostgreSQL, business-process analysis, and server hosting
+- **Current role:** Odoo Developer at [System Nexgen](https://github.com/systemnexgen)
+- **Portfolio & contact:** [Upwork profile](https://www.upwork.com/freelancers/~011c4563aa73e92bc1)
+
+### Featured work
+
+- [Custom Report](https://github.com/maliaslam113/custom_report) — Odoo invoice reporting module
+- [Payroll Inherit](https://github.com/maliaslam113/payroll_inherit) — Odoo payroll customization
+- [Inherit Invoice](https://github.com/maliaslam113/inherit_invoice) — Odoo invoice extension module
+
+### Technologies
+
+`Python` · `Odoo` · `PostgreSQL` · `JavaScript` · `XML` · `Git` · `Linux`
+
+I care about maintainable code, clear documentation, and dependable deployments.
