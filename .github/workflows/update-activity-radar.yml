@@ -1,0 +1,40 @@
+name: Update activity radar
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Generate radar chart
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/generate_activity_radar.py
+
+      - name: Open update pull request when changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- assets/activity-radar.svg; then
+            echo "Radar chart is already current."
+            exit 0
+          fi
+          branch="automation/update-activity-radar"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add assets/activity-radar.svg
+          git commit -m "Update GitHub activity radar"
+          git push --force origin "$branch"
+          gh pr close "$branch" --comment "Superseded by the latest activity radar update." 2>/dev/null || true
+          gh pr create --base main --head "$branch" --title "Update GitHub activity radar" --body "Automated update of the profile activity radar chart."
