@@ -23,4 +23,4 @@ I care about maintainable code, clear documentation, and dependable deployments.
 
 ### GitHub activity
 
-![GitHub activity radar chart](https://raw.githubusercontent.com/maliaslam113/maliaslam113/replace-activity-screenshot-with-radar/assets/activity-radar.svg)
+![GitHub activity radar chart](https://raw.githubusercontent.com/maliaslam113/maliaslam113/main/assets/activity-radar.svg)
