@@ -19,4 +19,4 @@ I build practical Odoo solutions that help businesses streamline operations, imp
 
 `Python` · `Odoo` · `PostgreSQL` · `JavaScript` · `XML` · `Git` · `Linux`
 
-I care about maintainable code, clear documentation, and dependable deployments.
+I care about maintainable code, clear documentation, and dependable deployments.\n\n### GitHub activity\n\n![GitHub activity overview](https://github.com/user-attachments/assets/3f3991d2-8a24-4aaa-8cc0-08608f9dadc9)\n
